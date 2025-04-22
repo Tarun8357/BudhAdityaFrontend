@@ -1,0 +1,22 @@
+.hero-section {
+    background-image: url('../../resources/HeroImage.png');
+    background-size: cover;          /* Ensures the image covers the entire section */
+    background-position: center;     /* Keeps it centered */
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;               /* Makes it fullscreen vertically */
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly darker overlay for white text */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  

@@ -1,0 +1,27 @@
+// src/components/hero/HeroSection.js
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Button from '@mui/material/Button';
+import './css/HeroSection.css'; // we'll add some custom CSS
+
+const HeroSection = () => {
+  return (
+    <div className="hero-section">
+      <div className="overlay">
+        <Container className="text-center text-white">
+          <Row className="justify-content-center align-items-center min-vh-100">
+            <Col md={10}>
+              <h1 className="display-3 fw-bold">Welcome to BudhAditya</h1>
+              <p className="lead mb-4">We provide next-gen solutions using modern technologies.</p>
+              <Button variant="contained" color="primary" size="large">
+                Get Started
+              </Button>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </div>
+  );
+};
+
+export default HeroSection;
