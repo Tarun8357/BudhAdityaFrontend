@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+/* To ensure the content doesn't get hidden under the fixed navbar */
+body {
+  margin-top: 64px; /* Adjust this based on your navbar height */
+}
